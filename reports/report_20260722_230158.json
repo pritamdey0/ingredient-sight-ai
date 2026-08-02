@@ -1,0 +1,966 @@
+{
+  "generated_at": "2026-07-22 23:01:58",
+  "source_image": "ingredients_en.5.full.jpg",
+  "raw_ocr_text": "WATER, SODIUM LAURETH SULFATE, DIMETHICONOL AND TRIDECETH-10, TEA-DODECYLBENZENESULFONATE, COCAMIDOPROPYL BETAINE, SODIUM CHLORIDE, PERFUME, GLYCOL DISTEARATE, GLYCERIN, CARBOMER, SODIUM HYDROXIDE, GUAR HYDROXYPROPYLTRIMONIUM CHLORIDE, MICA AND TITANIUM DIOXIDE, COCAMIDE MEA, DISODIUM EDTA, CITRIC ACID, PEG-45M, DMDM HYDANTOIN, CLIMBAZOLE, LYSINE HYDROCHLORIDE, ZINC GLUCONATE, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL, METHYLCHLOROISOTHIAZOLINONE AND METHYLISOTHIAZOLINONE, ALPHA-ISOMETHYL IONONE, CITRONELLOL, COUMARIN, GERANIOL, LINALOOL, CI 15985, CI 19140",
+  "normalized_ingredients": [
+    "Water",
+    "Sodium Laureth Sulfate",
+    "Dimethiconol",
+    "Trideceth-10",
+    "TEA-Dodecylbenzenesulfonate",
+    "Cocamidopropyl Betaine",
+    "Sodium Chloride",
+    "Perfume",
+    "Glycol Distearate",
+    "Glycerin",
+    "Carbomer",
+    "Sodium Hydroxide",
+    "Guar Hydroxypropyltrimonium Chloride",
+    "Mica",
+    "Titanium Dioxide",
+    "Cocamide MEA",
+    "Disodium EDTA",
+    "Citric Acid",
+    "PEG-45M",
+    "DMDM Hydantoin",
+    "Climbazole",
+    "Lysine Hydrochloride",
+    "Zinc Gluconate",
+    "Sunflower Seed Oil",
+    "Methylchloroisothiazolinone",
+    "Methylisothiazolinone",
+    "Alpha-Isomethyl Ionone",
+    "Citronellol",
+    "Coumarin",
+    "Geraniol",
+    "Linalool",
+    "CI 15985",
+    "CI 19140"
+  ],
+  "research_results": {
+    "Water": {
+      "name": "Water",
+      "purpose": "Cosmetic solvent and vehicle for active ingredients.",
+      "side_effects": "No known side effects or toxicity risks under standard cosmetic use. Completely safe for skin application.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://www.cir-safety.org",
+        "https://www.fda.gov/cosmetics",
+        "https://ncbi.nlm.nih.gov/pubmed"
+      ],
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://www.cir-safety.org",
+        "https://www.fda.gov/cosmetics",
+        "https://ncbi.nlm.nih.gov/pubmed"
+      ],
+      "evidence": "Water (Aqua) is the most widely used ingredient in cosmetics. It is a well-established solvent that has been recognized as safe by all major scientific panels including the Cosmetic Ingredient Review (CIR) Expert Panel, the US Food and Drug Administration (FDA), and the EU Scientific Committee on Consumer Safety (SCCS).",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Suitable",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Suitable"
+      }
+    },
+    "Sodium Laureth Sulfate": {
+      "name": "Sodium Laureth Sulfate",
+      "purpose": "Cosmetic detergent, emulsifying agent, cleansing agent, foaming agent.",
+      "side_effects": "May induce eye and skin irritation, particularly with prolonged contact in leave-on products. Irritation increases with ingredient concentration. True contact allergy is extremely rare.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.cir-safety.org/sites/default/files/imports/alerts.pdf"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel concluded that Sodium Laureth Sulfate and Ammonium Laureth Sulfate are safe as presently used in cosmetic products, despite recognizing their potential to induce eye and skin irritation. Irritation increases with concentration, and prolonged contact in leave-on products may lead to irritation. There is no scientific evidence linking SLS or SLES to cancer, blindness, or hair loss. AllergyCertified considers them safe in detergents and rinse-off cosmetics, with stricter concentration limits for leave-on products.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.cir-safety.org/sites/default/files/imports/alerts.pdf"
+      ]
+    },
+    "Dimethiconol": {
+      "name": "Dimethiconol",
+      "purpose": "Hair conditioning agent, skin conditioning agent, emollient.",
+      "side_effects": "No specific side effects or safety concerns were identified in the provided snippets.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://sincereskincare.com/ingredients/dimethiconol",
+        "https://pure.psu.edu/en/publications/safety-assessment-of-dimethicone-crosspolymers-as-used-in-cosmeti",
+        "https://europepmc.org/article/med/29243542"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel and the European CosIng database classify Dimethiconol as a safe cosmetic ingredient. The CIR Expert Panel reviewed the safety of dimethicone crosspolymer ingredients, which Dimethiconol is a part of, and concluded that these ingredients are safe in their present practices of use.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://sincereskincare.com/ingredients/dimethiconol",
+        "https://pure.psu.edu/en/publications/safety-assessment-of-dimethicone-crosspolymers-as-used-in-cosmeti",
+        "https://europepmc.org/article/med/29243542"
+      ]
+    },
+    "Trideceth-10": {
+      "name": "Trideceth-10",
+      "purpose": "Surfactant, emulsifier.",
+      "side_effects": "No specific side effects were identified, stated to be non-irritating when formulated correctly.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://www.cir-safety.org/ingredient/trideceth-10"
+      ],
+      "evidence": "Trideceth-10 is considered safe for use in cosmetics when formulated to be non-irritating. Extensive toxicological data indicates that these ethers do not behave as irritants. The Cosmetic Ingredient Review (CIR) supports its safe use.",
+      "confidence_score": "Medium",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Suitable",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://www.cir-safety.org/ingredient/trideceth-10"
+      ]
+    },
+    "TEA-Dodecylbenzenesulfonate": {
+      "name": "TEA-Dodecylbenzenesulfonate",
+      "purpose": "Surfactant, cleansing agent.",
+      "side_effects": "At high concentrations, dodecylbenzenesulfonate salts were severely irritating to the skin of animals and humans. The irritant properties are similar to other detergents, with severity dependent on concentration and pH. Not skin sensitizers.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.cir-safety.org/sites/default/files/118_draft_dea_suppl4.pdf"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel concluded that TEA-Dodecylbenzenesulfonate and related salts are safe as cosmetic ingredients in the present practices of use. However, at high concentrations, these salts were severely irritating to the skin, with irritation severity dependent on concentration and pH. They were not found to be skin sensitizers.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.cir-safety.org/sites/default/files/118_draft_dea_suppl4.pdf"
+      ]
+    },
+    "Cocamidopropyl Betaine": {
+      "name": "Cocamidopropyl Betaine",
+      "purpose": "Surfactant, cleansing agent, foam booster.",
+      "side_effects": "Observed to induce mild skin irritation, eye irritation, and skin sensitization.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11187029"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel concluded that Cocamidopropyl Betaine (CAPB) is safe for use in cosmetic products under current usage conditions. While it was observed to induce mild skin irritation, eye irritation, and skin sensitization, the margin of safety was calculated to be greater than 100 when used at a maximum concentration of 6% in leave-on products and 30% in rinse-off products.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11187029"
+      ]
+    },
+    "Sodium Chloride": {
+      "name": "Sodium Chloride",
+      "purpose": "Viscosity control agent, binding agent, abrasive, bulking agent, oral care agent.",
+      "side_effects": "No specific side effects or safety concerns were identified for cosmetic use. High dietary intake can contribute to high blood pressure.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://sincereskincare.com/ingredients/sodium-chloride",
+        "https://www.cosmeticsinfo.org/ingredient/sodium-chloride",
+        "https://www.specialchem.com/cosmetics/inci-ingredients/sodium-chloride"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel has evaluated sodium chloride and concluded it is safe in its current cosmetic uses and concentrations. The Food and Drug Administration (FDA) reviewed its safety and approved its use as an active ingredient in Over-The-Counter (OTC) drugs and as a multifunctional ingredient in cosmetics.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://sincereskincare.com/ingredients/sodium-chloride",
+        "https://www.cosmeticsinfo.org/ingredient/sodium-chloride",
+        "https://www.specialchem.com/cosmetics/inci-ingredients/sodium-chloride"
+      ]
+    },
+    "Perfume": {
+      "name": "Perfume",
+      "purpose": "Fragrance ingredient.",
+      "side_effects": "Concerns regarding potential health impacts associated with long-term exposure, including fertility, respiratory health, cancer risk, allergies, skin disorders, endocrine disruption, and neurological effects. Some fragrance chemicals are linked to serious health problems such as cancer, reproductive and developmental toxicity, allergies, and sensitivities. Lack of disclosure prevents consumers from knowing the full list of ingredients.",
+      "evidence_based_safety_assessment": "Use with Caution",
+      "evidence_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12425936",
+        "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/labelling/safety-ingredients.html"
+      ],
+      "evidence": "A narrative review highlights potential health impacts associated with long-term exposure to perfume ingredients, including risks to fertility, respiratory health, cancer, allergies, skin disorders, endocrine disruption, and neurological effects. The FDA defines 'fragrance' as a combination of chemicals, and the lack of specific ingredient disclosure prevents consumers from knowing the full list, some of which are linked to serious health problems. Health Canada regularly reviews cosmetic ingredients and prohibits or limits those that present health risks.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Caution / Avoid",
+        "pregnancy_suitability": "Consult healthcare provider if concerned",
+        "rinse_off_suitability": "Caution / Avoid",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Caution / Avoid"
+      },
+      "human_safety_status": "Use with Caution",
+      "safety_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12425936",
+        "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/labelling/safety-ingredients.html"
+      ]
+    },
+    "Glycol Distearate": {
+      "name": "Glycol Distearate",
+      "purpose": "Opacifying agent, pearlizing agent, viscosity increasing agent, skin conditioning agent.",
+      "side_effects": "No notable side effects or irritation were identified.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://formunova.com/our-ingredients/glycol-distearate",
+        "https://journals.sagepub.com/doi/pdf/10.3109/10915818209013144?download=true",
+        "https://essentialsbycatalina.com/blog/glycol-distearate"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) expert panel supports the safe use of Glycol Distearate at typical formulation levels without notable irritation. It is generally considered safe for use in cosmetics when used at appropriate concentrations.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://formunova.com/our-ingredients/glycol-distearate",
+        "https://journals.sagepub.com/doi/pdf/10.3109/10915818209013144?download=true",
+        "https://essentialsbycatalina.com/blog/glycol-distearate"
+      ]
+    },
+    "Glycerin": {
+      "name": "Glycerin",
+      "purpose": "Denaturant, fragrance ingredient, hair conditioning agent, humectant, oral care agent, skin protectant, skin conditioning agent-humectant, viscosity-decreasing agent.",
+      "side_effects": "Moderate use restrictions. Higher concern if used in inhalable product forms (e.g., sprays, powders) due to respiratory concerns.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31840548",
+        "https://www.cir-safety.org/sites/default/files/glycer_122014_FR.pdf"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel concluded that glycerin is safe as a cosmetic ingredient in the practices of use and concentration described in its safety assessment. Incidental inhalation is not considered a significant route of exposure that might lead to local respiratory or systemic effects. EWG notes low concerns for cancer, allergies, and developmental/reproductive toxicity, but moderate use restrictions and a higher score for inhalable forms due to respiratory concerns.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Caution / Avoid"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31840548",
+        "https://www.cir-safety.org/sites/default/files/glycer_122014_FR.pdf"
+      ]
+    },
+    "Carbomer": {
+      "name": "Carbomer",
+      "purpose": "Suspending agent, emulsifying agent, thickening agent.",
+      "side_effects": "Benzene is an impurity. Low potential risk of sensitization and skin irritation at a 1% concentration.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://www.medicalnewstoday.com/articles/carbomer",
+        "https://www.paulaschoice.fr/en/carbomer/ingredient-carbomer.html",
+        "https://journals.sagepub.com/doi/pdf/10.3109/10915818209013151?download=true"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel reaffirmed that carbomers are safe to use for cosmetics at concentrations up to 15%. A study on humans found a low potential risk of sensitization and skin irritation with a 1% carbomer concentration. The CIR Expert Panel also noted that benzene is an impurity in carbomers.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://www.medicalnewstoday.com/articles/carbomer",
+        "https://www.paulaschoice.fr/en/carbomer/ingredient-carbomer.html",
+        "https://journals.sagepub.com/doi/pdf/10.3109/10915818209013151?download=true"
+      ]
+    },
+    "Sodium Hydroxide": {
+      "name": "Sodium Hydroxide",
+      "purpose": "pH adjuster, saponifying agent (in soap making), denaturant.",
+      "side_effects": "Highly corrosive to animal and vegetable tissue. Contact with moisture on skin, eyes, or mucous membranes can cause severe burns. Reacts exothermically with water.",
+      "evidence_based_safety_assessment": "Use with Caution",
+      "evidence_sources": [
+        "https://en.wikipedia.org/wiki/Sodium",
+        "https://www.britannica.com/science/sodium",
+        "https://periodic-table.rsc.org/element/11/sodium"
+      ],
+      "evidence": "Sodium hydroxide (commonly called caustic soda or lye) is a corrosive white crystalline solid that is highly corrosive to animal and vegetable tissue. It readily absorbs moisture and forms alkaline solutions. Ingestion and contact with moisture on skin, eyes, or mucous membranes can cause severe burns. It reacts exothermically with water.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Caution / Avoid",
+        "pregnancy_suitability": "Caution / Avoid",
+        "rinse_off_suitability": "Caution / Avoid",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Caution / Avoid"
+      },
+      "human_safety_status": "Use with Caution",
+      "safety_sources": [
+        "https://en.wikipedia.org/wiki/Sodium",
+        "https://www.britannica.com/science/sodium",
+        "https://periodic-table.rsc.org/element/11/sodium"
+      ]
+    },
+    "Guar Hydroxypropyltrimonium Chloride": {
+      "name": "Guar Hydroxypropyltrimonium Chloride",
+      "purpose": "Hair conditioning agent, antistatic agent, film former, viscosity increasing agent.",
+      "side_effects": "Individual sensitivities can occur.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://formunova.com/our-ingredients/guar-hydroxypropyltrimonium-chloride",
+        "https://puracy.com/blogs/ingredients/guar-hydroxypropyltrimonium-chloride",
+        "https://www.clinikally.com/blogs/news/decoding-guar-hydroxypropyltrimonium-chloride-an-in-depth-guide"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) has affirmed the safety of Guar Hydroxypropyltrimonium Chloride, noting that it is non-irritating, non-sensitizing, and biodegradable. It is deemed safe for use in cosmetics and personal care products at a maximum concentration of 0.05%. However, individual sensitivities can occur.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://formunova.com/our-ingredients/guar-hydroxypropyltrimonium-chloride",
+        "https://puracy.com/blogs/ingredients/guar-hydroxypropyltrimonium-chloride",
+        "https://www.clinikally.com/blogs/news/decoding-guar-hydroxypropyltrimonium-chloride-an-in-depth-guide"
+      ]
+    },
+    "Mica": {
+      "name": "Mica",
+      "purpose": "Color additive, opacifying agent, bulking agent.",
+      "side_effects": "Long-term inhalation of mica dust poses a health risk to workers (e.g., in muscovite mills).",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435160"
+      ],
+      "evidence": "Mica minerals from Bangladeshi river sands were found to have low heavy metal content, be non-irritant, non-carcinogenic, and exhibit moderate antibacterial activity, suggesting their potential as safe and effective cosmetic ingredients. While long-term inhalation of mica dust poses a health risk to workers, mica use in cosmetics is not a concern for consumers. It is safe for use as a color additive in cosmetics, including products applied to the lips and around the eye.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Caution / Avoid"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435160"
+      ]
+    },
+    "Titanium Dioxide": {
+      "name": "Titanium Dioxide",
+      "purpose": "UV filter, whitening agent, colorant.",
+      "side_effects": "Considered a possible carcinogen by the International Agency for Research on Cancer (IARC) when inhalable (e.g., in powder form).",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://health.ec.europa.eu/document/download/93ad5570-cd44-4628-bc1b-0b594875fa0a_en"
+      ],
+      "evidence": "The U.S. Food and Drug Administration (FDA) has assessed titanium dioxide as safe for use as a color additive in food, drugs, and cosmetics (including around the eye) and as an ingredient in sunscreen products. For dermal exposure (lotions and creams), it is not a risk. However, when titanium dioxide is inhalable, as it may be in powder form, it is considered a possible carcinogen by IARC. The SCCS concluded that the use of pigmentary titanium dioxide in loose powder up to 25% is safe for consumers, but its use in a typical hair styling aerosol spray product is not safe for general consumers or hairdressers.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Caution / Avoid"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://health.ec.europa.eu/document/download/93ad5570-cd44-4628-bc1b-0b594875fa0a_en"
+      ]
+    },
+    "Cocamide MEA": {
+      "name": "Cocamide MEA",
+      "purpose": "Surfactant, foam booster, viscosity increasing agent.",
+      "side_effects": "No specific side effects or safety concerns were identified in the provided snippets.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://www.ewg.org/skindeep/ingredients/701517-COCAMIDE_MEA",
+        "https://journals.sagepub.com/doi/pdf/10.1177/109158189901800204",
+        "https://sincereskincare.com/ingredients/cocamide-mea"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel has evaluated Cocamide MEA multiple times, concluding it is safe as used in rinse-off products and safe at concentrations up to 10% in leave-on cosmetic products.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://www.ewg.org/skindeep/ingredients/701517-COCAMIDE_MEA",
+        "https://journals.sagepub.com/doi/pdf/10.1177/109158189901800204",
+        "https://sincereskincare.com/ingredients/cocamide-mea"
+      ]
+    },
+    "Disodium EDTA": {
+      "name": "Disodium EDTA",
+      "purpose": "Chelating agent, preservative enhancer.",
+      "side_effects": "Potential to increase the penetration of other chemicals into the skin. Overuse or improper application can lead to dryness or tightness. Inhalation of aerosolized cosmetic formulations was a concern, but exposure assessment predicted the maximum dose via inhalation to be below levels causing reproductive or developmental toxicity.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12396676",
+        "https://www.cir-safety.org/sites/default/files/EDTA.pdf"
+      ],
+      "evidence": "The Cosmetic Ingredient Review Expert Panel found Disodium EDTA and related ingredients to be safe as used in cosmetic formulations. However, these ingredients are likely to affect the passage of other chemicals into the skin by chelating calcium, requiring formulators to be aware when combining them with other ingredients. While inhalation of aerosolized cosmetic formulations was a concern, an exposure assessment predicted the maximum dose to be below levels shown to produce reproductive or developmental toxicity. Overuse or improper application can lead to dryness or tightness.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Suitable"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/12396676",
+        "https://www.cir-safety.org/sites/default/files/EDTA.pdf"
+      ]
+    },
+    "Citric Acid": {
+      "name": "Citric Acid",
+      "purpose": "pH adjuster, chelating agent, exfoliant (alpha hydroxy acid).",
+      "side_effects": "No specific side effects or safety concerns were identified for typical skincare use.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24861367"
+      ],
+      "evidence": "Scientific reviews confirm citric acid's low toxicity, rapid biodegradability, and minimal environmental impact. It holds 'Generally Recognized as Safe' (GRAS) status by the U.S. FDA with global approval for use in the food and cosmetic industry. The CIR Expert Panel has assessed its safety.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24861367"
+      ]
+    },
+    "PEG-45M": {
+      "name": "PEG-45M",
+      "purpose": "Surfactant, emulsifier, cleansing agent, humectant, skin conditioner, viscosity increasing agent.",
+      "side_effects": "PEGs are prohibited in organic cosmetics. Some sources suggest potential harmful effects associated with the PEG family, though not specifically detailed for PEG-45M.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4505343"
+      ],
+      "evidence": "PEG-45M has no safety flags in the database and is generally considered low-risk at cosmetic use levels, according to official regulatory datasets and expert reviews, including a CIR conclusion. PEGs are broadly utilized in cosmetic products. However, PEGs are prohibited in organic cosmetics and are derived from petrochemistry, with some sources suggesting potential harmful effects associated with the PEG family, without specific details for PEG-45M.",
+      "confidence_score": "Medium",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4505343"
+      ]
+    },
+    "DMDM Hydantoin": {
+      "name": "DMDM Hydantoin",
+      "purpose": "Antimicrobial agent, preservative.",
+      "side_effects": "It is a formaldehyde-releasing preservative, meaning it slowly releases trace amounts of formaldehyde throughout the product's shelf-life.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.chemicalsafetyfacts.org/chemicals/dmdm-hydantoin",
+        "https://www.thefactsabout.co.uk/ingredient/dmdm-hydantoin-formaldehyde-releasing-preservatives",
+        "https://www.cneasychem.com/what-to-know-about-dmdm-hydantoin"
+      ],
+      "evidence": "DMDM Hydantoin is a widely used formaldehyde-releasing preservative that releases small levels of formaldehyde to maintain microbiological stability. It has been approved for use in cosmetic and personal care products under established safety limits by the Cosmetic Ingredient Review (CIR) and the European Commission's Scientific Committee on Consumer Safety (SCCS), which calculated the level of free formaldehyde released to be safe.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.chemicalsafetyfacts.org/chemicals/dmdm-hydantoin",
+        "https://www.thefactsabout.co.uk/ingredient/dmdm-hydantoin-formaldehyde-releasing-preservatives",
+        "https://www.cneasychem.com/what-to-know-about-dmdm-hydantoin"
+      ]
+    },
+    "Climbazole": {
+      "name": "Climbazole",
+      "purpose": "Antimycotic compound, preservative, active ingredient in anti-dandruff formulations.",
+      "side_effects": "Overexposure can cause rashes. The use of 0.5% climbazole in other leave-on products (beyond hair care and facial cosmetics) is not considered safe.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://health.ec.europa.eu/document/download/2c31888e-9abe-4e46-a39e-c9b89477ff13_en"
+      ],
+      "evidence": "Climbazole is regulated as a preservative with a maximum authorized concentration of 0.5%. It is used as an anti-dandruff active at a maximum concentration of 2.0% in rinse-off products and 0.5% in leave-on products (hair care and facial cosmetics). The SCCP (Scientific Committee on Consumer Products) believes that 0.5% climbazole in hair care products and facial cosmetics does not pose a risk to consumer health. However, 0.5% in other leave-on products is not considered safe. It is generally safe and non-sensitizing, but overexposure can cause rashes.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://health.ec.europa.eu/document/download/2c31888e-9abe-4e46-a39e-c9b89477ff13_en"
+      ]
+    },
+    "Lysine Hydrochloride": {
+      "name": "Lysine Hydrochloride",
+      "purpose": "Hair conditioning agent, skin conditioning agent.",
+      "side_effects": "No specific side effects or safety concerns were identified in the provided snippets.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://sincereskincare.com/ingredients/lysine-hcl",
+        "https://caredermis.com/ingredients/lysine-hcl",
+        "https://www.skinsafeproducts.com/ingredients/lysine-hydrochloride"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel has evaluated Lysine HCl and categorized it as safe for use in cosmetics and personal care products. It is generally considered low-risk at cosmetic use levels and is listed as 'Teen SAFE'.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Suitable",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://sincereskincare.com/ingredients/lysine-hcl",
+        "https://caredermis.com/ingredients/lysine-hcl",
+        "https://www.skinsafeproducts.com/ingredients/lysine-hydrochloride"
+      ]
+    },
+    "Zinc Gluconate": {
+      "name": "Zinc Gluconate",
+      "purpose": "Hair conditioning agent, skin conditioning agent, cosmetic astringent, cosmetic biocide, preservative, oral care agent, buffering agent, bulking agent, chelating agent, viscosity increasing agent non-aqueous.",
+      "side_effects": "Moderate allergy risk.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.cir-safety.org/sites/default/files/zincst032018FR.pdf",
+        "https://www.cir-safety.org/sites/default/files/zinc%20salts_0.pdf"
+      ],
+      "evidence": "The Cosmetic Ingredient Review (CIR) Expert Panel previously determined Zinc Gluconate to be safe for use in cosmetic products according to specified use concentrations and practices. However, Zinc Gluconate carries moderate concerns for allergy risk and is classified by EU CosIng Annex III as declarable/restricted.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.cir-safety.org/sites/default/files/zincst032018FR.pdf",
+        "https://www.cir-safety.org/sites/default/files/zinc%20salts_0.pdf"
+      ]
+    },
+    "Sunflower Seed Oil": {
+      "name": "Sunflower Seed Oil",
+      "purpose": "Skin conditioning agent, emollient, hair conditioning agent.",
+      "side_effects": "No specific side effects or safety concerns were identified in the provided snippets.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36994824"
+      ],
+      "evidence": "The Expert Panel for Cosmetic Ingredient Safety concluded that Helianthus annuus (sunflower) seed- and flower-derived ingredients are safe as used in cosmetics in the present practices of use and concentration.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Suitable",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/36994824"
+      ]
+    },
+    "Methylchloroisothiazolinone": {
+      "name": "Methylchloroisothiazolinone",
+      "purpose": "Preservative.",
+      "side_effects": "One of the most predominant contact allergens found in cosmetic products. Dermal irritation most commonly occurs in products with CMIT and MIT/CMIT mixtures.",
+      "evidence_based_safety_assessment": "Use with Caution",
+      "evidence_sources": [
+        "https://www.cir-safety.org/sites/default/files/MI_MCI.pdf"
+      ],
+      "evidence": "Methylchloroisothiazolinone (MCI) and Methylisothiazolinone (MI) are widely used preservatives. The CIR Expert Panel concluded in 1992 that the MCI/MI mixture may be safely used in rinse-off products at up to 15 ppm and in leave-on products at up to 7.5 ppm. However, MCI and MI are two of the most predominant contact allergens in cosmetic products, with dermal irritation most commonly occurring in products containing CMIT and MIT/CMIT mixtures. If an individual is not allergic, MIT and CMIT are considered among the safer preservatives regarding long-term chronic health effects.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Caution / Avoid",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Caution / Avoid",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Use with Caution",
+      "safety_sources": [
+        "https://www.cir-safety.org/sites/default/files/MI_MCI.pdf"
+      ]
+    },
+    "Methylisothiazolinone": {
+      "name": "Methylisothiazolinone",
+      "purpose": "Preservative.",
+      "side_effects": "One of the most predominant contact allergens found in cosmetic products. Data shows it is unsafe at 100 ppm in rinse-off cosmetic products when considering contact allergy. Dermal irritation is less common with only MIT compared to CMIT or CMIT/MIT mixtures.",
+      "evidence_based_safety_assessment": "Use with Caution",
+      "evidence_sources": [
+        "https://journals.sagepub.com/doi/10.1177/10915818211015795",
+        "https://www.safecosmetics.org/chemicals/methylisothiazolinone",
+        "https://www.cosmeticsandtoiletries.com/regulations/regional/news/21845049/warning-methylisothiazolinone-use-has-limits"
+      ],
+      "evidence": "Methylisothiazolinone (MI) is a widely used preservative. The CIR Expert Panel initially assessed it as safe for use alone at concentrations up to 100 ppm in 2010, but reopened the assessment in 2013 due to a higher-than-expected frequency of allergic reactions. Data indicates that methylisothiazolinone used as a preservative in rinse-off cosmetic products is unsafe at 100 ppm when considering contact allergy. It is a predominant contact allergen, though dermal irritation is less common with only MIT compared to CMIT or CMIT/MIT mixtures. If not allergic, it is considered among the safer preservatives regarding long-term chronic health effects.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Caution / Avoid",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Caution / Avoid",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Use with Caution",
+      "safety_sources": [
+        "https://journals.sagepub.com/doi/10.1177/10915818211015795",
+        "https://www.safecosmetics.org/chemicals/methylisothiazolinone",
+        "https://www.cosmeticsandtoiletries.com/regulations/regional/news/21845049/warning-methylisothiazolinone-use-has-limits"
+      ]
+    },
+    "Alpha-Isomethyl Ionone": {
+      "name": "Alpha-Isomethyl Ionone",
+      "purpose": "Fragrance material, provides floral/violet and powdery scent nuances.",
+      "side_effects": "Recognized globally as a potential skin sensitizer and a frequent culprit in cosmetic-induced contact dermatitis, especially in patients with impaired skin barriers.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://sincereskincare.com/ingredients/alpha-isomethyl-ionone",
+        "https://www.skinsafeproducts.com/ingredients/alpha-isomethyl-ionone",
+        "https://www.tiiips.com/m/tiiips/home?action=listReviews&reviewID=8700&oID=1967"
+      ],
+      "evidence": "Alpha-Isomethyl Ionone is a synthetic aroma chemical used for its scent. While the Cosmetic Ingredient Review (CIR) Expert Panel has affirmed its safety for the general population when used within limits, it is recognized globally as a potential skin sensitizer and requires specific disclosure on ingredient labels. Clinical data indicates it remains a frequent culprit in cases of cosmetic-induced contact dermatitis, especially in patients with impaired skin barriers.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Caution / Avoid",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://sincereskincare.com/ingredients/alpha-isomethyl-ionone",
+        "https://www.skinsafeproducts.com/ingredients/alpha-isomethyl-ionone",
+        "https://www.tiiips.com/m/tiiips/home?action=listReviews&reviewID=8700&oID=1967"
+      ]
+    },
+    "Citronellol": {
+      "name": "Citronellol",
+      "purpose": "Fragrance ingredient (floral, citrusy aroma), mild antimicrobial, skin-soothing properties.",
+      "side_effects": "No specific side effects or safety concerns were identified in the provided snippets.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://www.specialchem.com/cosmetics/inci-ingredients/citronellol",
+        "https://elchemy.com/blogs/personal-care/citronellol-in-skin-care-what-it-does-whether-it-is-safe-and-what-us-formulators-need-to-know",
+        "https://www.skinsafeproducts.com/ingredients/citronellol"
+      ],
+      "evidence": "Citronellol is a natural, aromatic compound widely utilized in cosmetics for its pleasant floral and citrusy scent. The United States FDA recognizes citronellol as generally safe for use in food, and it has also been evaluated for dermal safety as an insect repellent. It also contributes mild antimicrobial and skin-soothing properties.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://www.specialchem.com/cosmetics/inci-ingredients/citronellol",
+        "https://elchemy.com/blogs/personal-care/citronellol-in-skin-care-what-it-does-whether-it-is-safe-and-what-us-formulators-need-to-know",
+        "https://www.skinsafeproducts.com/ingredients/citronellol"
+      ]
+    },
+    "Coumarin": {
+      "name": "Coumarin",
+      "purpose": "Fragrance ingredient.",
+      "side_effects": "No specific side effects or safety concerns were identified for topical cosmetic use at recommended concentrations.",
+      "evidence_based_safety_assessment": "Considered Safe Under Current Cosmetic Use",
+      "evidence_sources": [
+        "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.803338/full",
+        "https://www.skinsafeproducts.com/ingredients/coumarin",
+        "https://www.tga.gov.au/sites/default/files/safety-review-coumarin-listed-medicines.pdf"
+      ],
+      "evidence": "Coumarin is considered safe at a maximum of 0.001% in topical cosmetics, with a maximum estimated exposure below 0.02 mg/kg. The International Agency for Research on Cancer (IARC) evaluated Coumarin and found it was not classifiable as to its carcinogenicity in humans. It is found in proprietary fragrance formulations in products such as sunscreens, baby powders, and nappy rash creams.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Suitable",
+        "children_suitability": "Suitable",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Considered Safe Under Current Cosmetic Use",
+      "safety_sources": [
+        "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.803338/full",
+        "https://www.skinsafeproducts.com/ingredients/coumarin",
+        "https://www.tga.gov.au/sites/default/files/safety-review-coumarin-listed-medicines.pdf"
+      ]
+    },
+    "Geraniol": {
+      "name": "Geraniol",
+      "purpose": "Fragrance ingredient, antimicrobial, repellent.",
+      "side_effects": "Included on the list of 'allergenic' substances in Europe.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.cosmeticsinfo.org/ingredient/geraniol",
+        "https://www.researchgate.net/publication/51414355_Fragrance_material_review_on_geraniol",
+        "https://www.skinsafeproducts.com/ingredients/geraniol"
+      ],
+      "evidence": "The U.S. Food and Drug Administration (FDA) includes geraniol on its lists of flavoring substances considered Generally Recognized As Safe (GRAS). The Research Institute for Fragrance Materials Expert Panel (REXPAN) has reviewed its safety. Geraniol functions as a fragrance ingredient and exhibits antimicrobial and repellent properties with low toxicity to humans. However, in Europe, geraniol is included on the list of 'allergenic' substances.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Suitable",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.cosmeticsinfo.org/ingredient/geraniol",
+        "https://www.researchgate.net/publication/51414355_Fragrance_material_review_on_geraniol",
+        "https://www.skinsafeproducts.com/ingredients/geraniol"
+      ]
+    },
+    "Linalool": {
+      "name": "Linalool",
+      "purpose": "Fragrance component, fixative, mild soothing and emollient effects.",
+      "side_effects": "One of the 26 EU-declared fragrance allergens, requiring mandatory labeling when present above 0.001% in leave-on or 0.01% in rinse-off products.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.cosmeticsinfo.org/ingredient/linalool",
+        "https://www.sciencedirect.com/science/article/pii/S0278691508003347",
+        "https://www.specialchem.com/cosmetics/inci-ingredients/linalool"
+      ],
+      "evidence": "The Food and Drug Administration (FDA) includes Linalool on its list of substances considered Generally Recognized As Safe (GRAS) as a flavoring substance. It is a naturally occurring monoterpene alcohol used as a fragrance component and fixative in cosmetics. However, it is one of the 26 EU-declared fragrance allergens, requiring mandatory labeling when present above 0.001% in leave-on or 0.01% in rinse-off products.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Caution / Avoid",
+        "leave_on_suitability": "Caution / Avoid",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.cosmeticsinfo.org/ingredient/linalool",
+        "https://www.sciencedirect.com/science/article/pii/S0278691508003347",
+        "https://www.specialchem.com/cosmetics/inci-ingredients/linalool"
+      ]
+    },
+    "CI 15985": {
+      "name": "CI 15985",
+      "purpose": "Colorant (yellow/orange).",
+      "side_effects": "Moderate hazard rating from EWG mainly due to potential for contact allergy in sensitive individuals.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/labelling/safety-ingredients.html"
+      ],
+      "evidence": "Health Canada regularly reviews cosmetic ingredients to ensure safety. CI 15985 has a moderate hazard rating from EWG, primarily due to the potential for contact allergy in sensitive individuals.",
+      "confidence_score": "Medium",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/labelling/safety-ingredients.html"
+      ]
+    },
+    "CI 19140": {
+      "name": "CI 19140",
+      "purpose": "Colorant (lemon yellow hue).",
+      "side_effects": "Potential for allergic reactions, especially in aspirin-sensitive or tartrazine-sensitive individuals. Moderate hazard rating from EWG.",
+      "evidence_based_safety_assessment": "Generally Safe with Conditions",
+      "evidence_sources": [
+        "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/labelling/safety-ingredients.html"
+      ],
+      "evidence": "CI 19140 (Tartrazine) is a common colorant approved by the U.S. Food and Drug Administration (FDA) for use in cosmetics, but it is regulated. Reevaluations of its safety have proven it poses no danger when applied topically. However, it has a moderate hazard rating from EWG due to the potential for allergic reactions, especially in aspirin-sensitive or tartrazine-sensitive individuals. Health Canada reviews cosmetic ingredients for safety.",
+      "confidence_score": "High",
+      "exposure_context": {
+        "sensitive_skin_suitability": "Caution / Avoid",
+        "children_suitability": "Unknown",
+        "pregnancy_suitability": "No specific pregnancy concerns identified",
+        "rinse_off_suitability": "Suitable",
+        "leave_on_suitability": "Suitable",
+        "spray_suitability": "Unknown"
+      },
+      "human_safety_status": "Generally Safe with Conditions",
+      "safety_sources": [
+        "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/labelling/safety-ingredients.html"
+      ]
+    }
+  },
+  "safety_analysis": {
+    "overall_score": "Caution / Medium Risk",
+    "summary": "This product contains a combination of generally safe ingredients and several that warrant caution due to their potential for irritation, sensitization, or other health concerns. Key ingredients raising the risk profile include Methylchloroisothiazolinone and Methylisothiazolinone, which are potent contact allergens, and DMDM Hydantoin, a formaldehyde-releasing preservative. The broad 'Perfume' ingredient also poses a concern due to its undisclosed components, some of which are linked to allergies and sensitivities. Additionally, several other fragrance components (e.g., Alpha-Isomethyl Ionone, Geraniol, Linalool) and colorants (CI 15985, CI 19140) are known potential allergens. While many ingredients are considered safe for rinse-off use, the cumulative presence of these potential irritants and allergens suggests a medium risk, particularly for individuals with sensitive skin or pre-existing allergies.",
+    "warnings": [
+      "Contains Methylchloroisothiazolinone and Methylisothiazolinone, which are among the most predominant contact allergens in cosmetic products.",
+      "Contains DMDM Hydantoin, a formaldehyde-releasing preservative, which slowly releases trace amounts of formaldehyde.",
+      "The 'Perfume' ingredient may contain undisclosed chemicals linked to allergies, skin disorders, and other health concerns.",
+      "Contains multiple known fragrance allergens (e.g., Alpha-Isomethyl Ionone, Geraniol, Linalool) and colorants (CI 15985, CI 19140) that can cause contact dermatitis, especially in sensitive individuals.",
+      "Surfactants like Sodium Laureth Sulfate, TEA-Dodecylbenzenesulfonate, and Cocamidopropyl Betaine may induce skin and eye irritation, particularly with prolonged contact or for sensitive skin.",
+      "Climbazole and Zinc Gluconate carry moderate allergy risks."
+    ],
+    "recommendations": [
+      "Perform a patch test on a small area of skin before full application, especially if you have sensitive skin or a history of allergies.",
+      "Discontinue use immediately if you experience any signs of irritation, redness, itching, or rash.",
+      "Avoid this product if you have known allergies to formaldehyde, isothiazolinones, or specific fragrance components.",
+      "Rinse the product thoroughly from skin and hair after use to minimize contact time with potential irritants and allergens.",
+      "Consult a healthcare professional or dermatologist if you experience persistent or severe adverse reactions."
+    ]
+  },
+  "report_version": "1.0.0",
+  "overall_risk": "Caution / Medium Risk",
+  "ingredient_count": 33,
+  "warning_count": 6,
+  "recommendation_count": 5,
+  "references": [
+    "https://www.cir-safety.org",
+    "https://www.fda.gov/cosmetics",
+    "https://ncbi.nlm.nih.gov/pubmed",
+    "https://www.cir-safety.org/sites/default/files/imports/alerts.pdf",
+    "https://sincereskincare.com/ingredients/dimethiconol",
+    "https://pure.psu.edu/en/publications/safety-assessment-of-dimethicone-crosspolymers-as-used-in-cosmeti",
+    "https://europepmc.org/article/med/29243542",
+    "https://www.cir-safety.org/ingredient/trideceth-10",
+    "https://www.cir-safety.org/sites/default/files/118_draft_dea_suppl4.pdf",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11187029",
+    "https://sincereskincare.com/ingredients/sodium-chloride",
+    "https://www.cosmeticsinfo.org/ingredient/sodium-chloride",
+    "https://www.specialchem.com/cosmetics/inci-ingredients/sodium-chloride",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12425936",
+    "https://www.canada.ca/en/health-canada/services/consumer-product-safety/cosmetics/labelling/safety-ingredients.html",
+    "https://formunova.com/our-ingredients/glycol-distearate",
+    "https://journals.sagepub.com/doi/pdf/10.3109/10915818209013144?download=true",
+    "https://essentialsbycatalina.com/blog/glycol-distearate",
+    "https://pubmed.ncbi.nlm.nih.gov/31840548",
+    "https://www.cir-safety.org/sites/default/files/glycer_122014_FR.pdf",
+    "https://www.medicalnewstoday.com/articles/carbomer",
+    "https://www.paulaschoice.fr/en/carbomer/ingredient-carbomer.html",
+    "https://journals.sagepub.com/doi/pdf/10.3109/10915818209013151?download=true",
+    "https://en.wikipedia.org/wiki/Sodium",
+    "https://www.britannica.com/science/sodium",
+    "https://periodic-table.rsc.org/element/11/sodium",
+    "https://formunova.com/our-ingredients/guar-hydroxypropyltrimonium-chloride",
+    "https://puracy.com/blogs/ingredients/guar-hydroxypropyltrimonium-chloride",
+    "https://www.clinikally.com/blogs/news/decoding-guar-hydroxypropyltrimonium-chloride-an-in-depth-guide",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12435160",
+    "https://health.ec.europa.eu/document/download/93ad5570-cd44-4628-bc1b-0b594875fa0a_en",
+    "https://www.ewg.org/skindeep/ingredients/701517-COCAMIDE_MEA",
+    "https://journals.sagepub.com/doi/pdf/10.1177/109158189901800204",
+    "https://sincereskincare.com/ingredients/cocamide-mea",
+    "https://pubmed.ncbi.nlm.nih.gov/12396676",
+    "https://www.cir-safety.org/sites/default/files/EDTA.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/24861367",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4505343",
+    "https://www.chemicalsafetyfacts.org/chemicals/dmdm-hydantoin",
+    "https://www.thefactsabout.co.uk/ingredient/dmdm-hydantoin-formaldehyde-releasing-preservatives",
+    "https://www.cneasychem.com/what-to-know-about-dmdm-hydantoin",
+    "https://health.ec.europa.eu/document/download/2c31888e-9abe-4e46-a39e-c9b89477ff13_en",
+    "https://sincereskincare.com/ingredients/lysine-hcl",
+    "https://caredermis.com/ingredients/lysine-hcl",
+    "https://www.skinsafeproducts.com/ingredients/lysine-hydrochloride",
+    "https://www.cir-safety.org/sites/default/files/zincst032018FR.pdf",
+    "https://www.cir-safety.org/sites/default/files/zinc%20salts_0.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/36994824",
+    "https://www.cir-safety.org/sites/default/files/MI_MCI.pdf",
+    "https://journals.sagepub.com/doi/10.1177/10915818211015795",
+    "https://www.safecosmetics.org/chemicals/methylisothiazolinone",
+    "https://www.cosmeticsandtoiletries.com/regulations/regional/news/21845049/warning-methylisothiazolinone-use-has-limits",
+    "https://sincereskincare.com/ingredients/alpha-isomethyl-ionone",
+    "https://www.skinsafeproducts.com/ingredients/alpha-isomethyl-ionone",
+    "https://www.tiiips.com/m/tiiips/home?action=listReviews&reviewID=8700&oID=1967",
+    "https://www.specialchem.com/cosmetics/inci-ingredients/citronellol",
+    "https://elchemy.com/blogs/personal-care/citronellol-in-skin-care-what-it-does-whether-it-is-safe-and-what-us-formulators-need-to-know",
+    "https://www.skinsafeproducts.com/ingredients/citronellol",
+    "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.803338/full",
+    "https://www.skinsafeproducts.com/ingredients/coumarin",
+    "https://www.tga.gov.au/sites/default/files/safety-review-coumarin-listed-medicines.pdf",
+    "https://www.cosmeticsinfo.org/ingredient/geraniol",
+    "https://www.researchgate.net/publication/51414355_Fragrance_material_review_on_geraniol",
+    "https://www.skinsafeproducts.com/ingredients/geraniol",
+    "https://www.cosmeticsinfo.org/ingredient/linalool",
+    "https://www.sciencedirect.com/science/article/pii/S0278691508003347",
+    "https://www.specialchem.com/cosmetics/inci-ingredients/linalool"
+  ]
+}
