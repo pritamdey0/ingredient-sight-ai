@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+ENV/
+env/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Local environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Temp upload files & caches
+uploads/
+reports/
+*.log
+.DS_Store
+
+# IDE / System
+.vscode/
+.idea/
+*.swp

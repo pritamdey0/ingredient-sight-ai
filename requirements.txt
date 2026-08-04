@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain-groq
+python-dotenv
+langchain-google-genai
+langgraph
+langsmith
+pandas
+xlrd
+python-calamine
