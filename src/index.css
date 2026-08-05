@@ -4,6 +4,7 @@
   body {
     font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
+    letter-spacing: -0.04em;
     overflow-x: hidden;
   }
 }
@@ -41,3 +42,13 @@
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; filter: drop-shadow(0 0 8px rgba(255,255,255,0.6)); }
+  50% { opacity: 1; filter: drop-shadow(0 0 16px rgba(255,255,255,0.9)); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
