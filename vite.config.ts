@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => {
 
   console.log(`\n[vite] Backend proxy target → ${target}`);
   console.log(`[vite]  (override with: set VITE_BACKEND_PORT=8001 && npm run dev)\n`);
+  console.log(`[vite]  For production set: VITE_API_URL=https://your-render-app.onrender.com\n`);
 
   return {
     plugins: [react(), tailwindcss()],
@@ -19,6 +20,12 @@ export default defineConfig(({ mode }) => {
       alias: {
         '@': path.resolve(__dirname, './src'),
       },
+    },
+    define: {
+      // Expose VITE_API_URL to the frontend bundle at build time.
+      // In production (Vercel), set this to your Render backend URL.
+      // In dev, the proxy below handles /api/* automatically.
+      '__BACKEND_URL__': JSON.stringify(env.VITE_API_URL || ''),
     },
     server: {
       port: 3000,
