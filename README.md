@@ -35,7 +35,7 @@
 
 ## 🧬 What is IngredientSight AI?
 
-**IngredientSight AI** is a full-stack intelligent system that decodes the ingredient labels of cosmetic, food, and skincare products using a **5-stage autonomous AI pipeline** built with [LangGraph](https://langchain-ai.github.io/langgraph/). Simply photograph your product label, upload it to the dashboard, and receive a comprehensive, research-backed safety report — complete with a dermatological risk score, per-ingredient profiles, health warnings, and downloadable reports.
+**IngredientSight AI** is a full-stack intelligent system that decodes the ingredient labels of cosmetic and skincare products using a **5-stage autonomous AI pipeline** built with [LangGraph](https://langchain-ai.github.io/langgraph/). Simply photograph your product label, upload it to the dashboard, and receive a comprehensive, research-backed safety report — complete with a dermatological risk score, per-ingredient profiles, health warnings, and downloadable reports.
 
 The project lives inside a stunning editorial landing page called **PRMPT Archive**, featuring scroll-driven cinematics, atmospheric full-screen video, and scattered specimen cards — designed to feel like a high-fashion AI lab.
 
