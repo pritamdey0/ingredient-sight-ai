@@ -21,7 +21,17 @@ class SafetyAnalysis(BaseModel):
         description="Actionable consumer recommendations (e.g., 'Do a patch test before use', 'Avoid contact with eyes', 'Not recommended for sensitive skin')."
     )
 
+_structured_llm_instance = None
+
 def get_safety_llm():
+    """
+    Initializes (or reuses) the ChatGoogleGenerativeAI client with structured output.
+    Module-level singleton to avoid re-creating the client on every graph run.
+    """
+    global _structured_llm_instance
+    if _structured_llm_instance is not None:
+        return _structured_llm_instance
+
     api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Neither GOOGLE_API_KEY nor GEMINI_API_KEY was found in the environment/dotenv file.")
@@ -32,8 +42,8 @@ def get_safety_llm():
         temperature=0.0
     )
 
-
-    return llm.with_structured_output(SafetyAnalysis)
+    _structured_llm_instance = llm.with_structured_output(SafetyAnalysis)
+    return _structured_llm_instance
 
 def safety_node(state: dict) -> dict:
     """

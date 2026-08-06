@@ -3,18 +3,24 @@ from PIL import Image
 from google import genai
 from dotenv import load_dotenv
 
-# Load environment variables (such as GOOGLE_API_KEY)
 load_dotenv()
+
+_gemini_client_instance = None
 
 def get_gemini_client():
     """
-    Initializes and returns the GenAI Client using GOOGLE_API_KEY or GEMINI_API_KEY.
+    Initializes and returns (or reuses) the GenAI Client using GOOGLE_API_KEY or GEMINI_API_KEY.
+    Module-level singleton to avoid re-creating the client for every graph invocation.
     """
-    # The new google-genai SDK uses GEMINI_API_KEY by default or can take an explicit api_key.
+    global _gemini_client_instance
+    if _gemini_client_instance is not None:
+        return _gemini_client_instance
+
     api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Neither GOOGLE_API_KEY nor GEMINI_API_KEY was found in the environment/dotenv file.")
-    return genai.Client(api_key=api_key)
+    _gemini_client_instance = genai.Client(api_key=api_key)
+    return _gemini_client_instance
 
 def ocr_node(state: dict) -> dict:
     """

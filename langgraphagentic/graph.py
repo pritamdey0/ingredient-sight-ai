@@ -50,6 +50,11 @@ class PipelineState(TypedDict, total=False):
     report_md_path: str
     report_json_path: str
 
+    # Computed by the Report Agent — exposed to the REST API / dashboard.
+    # Must be declared here or LangGraph will drop them from the final state.
+    safety_score: int
+    risk_label: str
+
 
 # ──────────────────────────────────────────────
 # 2. Build the StateGraph

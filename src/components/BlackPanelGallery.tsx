@@ -184,7 +184,7 @@ export const BlackPanelGallery: React.FC<BlackPanelGalleryProps> = ({ onOpenDash
                       transformStyle: 'preserve-3d',
                       willChange: 'transform, opacity',
                     }}
-                    onClick={onOpenDashboard}
+                    
                   >
                     {/* 3D Image Frame Container */}
                     <div
@@ -231,18 +231,7 @@ export const BlackPanelGallery: React.FC<BlackPanelGalleryProps> = ({ onOpenDash
                       </ul>
 
                       {/* Interactive Dashboard Trigger CTA */}
-                      <div className="mt-8">
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            onOpenDashboard();
-                          }}
-                          className="inline-flex items-center gap-3 text-xs sm:text-sm font-mono font-semibold text-black bg-white hover:bg-zinc-200 px-6 py-3 rounded-full uppercase tracking-wider transition-all duration-300 shadow-xl hover:scale-105"
-                        >
-                          <span>Explore in Dashboard</span>
-                          <span>&rarr;</span>
-                        </button>
-                      </div>
+                    
                     </div>
                   </div>
                 );
@@ -262,7 +251,7 @@ export const BlackPanelGallery: React.FC<BlackPanelGalleryProps> = ({ onOpenDash
                 className="mt-8 inline-flex items-center gap-3 bg-white text-black hover:bg-zinc-100 px-9 py-4.5 rounded-full font-bold text-sm sm:text-base tracking-tight uppercase transition-all duration-300 shadow-2xl hover:scale-105"
               >
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping" />
-                <span>LAUNCH DASHBOARD NOW &rarr;</span>
+                <span>GET STARTED &rarr;</span>
               </button>
             </div>
 
@@ -293,7 +282,7 @@ export const BlackPanelGallery: React.FC<BlackPanelGalleryProps> = ({ onOpenDash
           transform: 'scale(0)',
         }}
       >
-        <span>LAUNCH DASHBOARD &rarr;</span>
+        <span>GET STARTED &rarr;</span>
       </div>
 
       {/* Outro Overlay */}

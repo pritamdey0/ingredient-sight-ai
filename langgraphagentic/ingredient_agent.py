@@ -12,25 +12,29 @@ class IngredientList(BaseModel):
         description="Clean, corrected, and normalized chemical/common ingredient names. Each element should be a single ingredient."
     )
 
+_structured_llm_instance = None
+
 def get_ingredient_llm():
     """
-    Initializes the Google Generative AI LLM with structured output configuration.
+    Initializes (or reuses) the Google Generative AI LLM with structured output.
+    Module-level singleton to avoid re-creating the client on every graph run.
     """
+    global _structured_llm_instance
+    if _structured_llm_instance is not None:
+        return _structured_llm_instance
+
     api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("Neither GOOGLE_API_KEY nor GEMINI_API_KEY was found in the environment/dotenv file.")
     
-    # Initialize the Chat model using gemini-2.5-flash
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash",
         google_api_key=api_key,
         temperature=0.0
     )
-
-
     
-    # Bind structured output schema
-    return llm.with_structured_output(IngredientList)
+    _structured_llm_instance = llm.with_structured_output(IngredientList)
+    return _structured_llm_instance
 
 def ingredient_node(state: dict) -> dict:
     """

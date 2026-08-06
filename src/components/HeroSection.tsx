@@ -141,7 +141,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDashboard }) => 
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            onClick={onOpenDashboard}
+           
           >
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-none font-sans drop-shadow-lg">
               <TextEffectSpeed text="IngredientSight AI.." />

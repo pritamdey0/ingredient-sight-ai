@@ -158,6 +158,11 @@ def report_node(state: dict) -> dict:
         overall_score = "Danger / High Risk"
         overall_badge = "🔴 HIGH RISK"
 
+    # Expose the numeric score + label in state so the REST API / dashboard
+    # can render them without re-parsing the markdown report.
+    state["safety_score"] = math_score
+    state["risk_label"] = overall_score
+
     # Evidence Coverage counts
     confidence_counts = {"High": 0, "Medium": 0, "Low": 0, "Unknown": 0}
     for ing in ingredients:
