@@ -579,8 +579,6 @@ export const Dashboard: React.FC<DashboardProps> = ({ onBackToLanding }) => {
           <ArrowLeft className="w-3.5 h-3.5" />
           Back
         </button>
-
-        <BackendStatus health={health} onRetry={checkHealth} />
       </div>
 
       <div className="relative z-10 flex flex-col items-center pt-6 pb-6 px-6 text-center">
