@@ -74,6 +74,23 @@ def ingredient_node(state: dict) -> dict:
         result = chain.invoke({"ocr_text": ocr_text})
         state["ingredients"] = result.ingredients
     except Exception as e:
-        raise RuntimeError(f"Ingredient Agent call failed: {e}")
+        print(f"[WARN] Gemini call failed in Ingredient Agent: {e}. Trying Groq fallback...")
+        groq_api_key = os.environ.get("GROQ_API_KEY")
+        if not groq_api_key:
+            raise RuntimeError(f"Gemini call failed and no GROQ_API_KEY configured for fallback. Original error: {e}")
+        try:
+            from langchain_groq import ChatGroq
+            groq_llm = ChatGroq(
+                model="llama-3.3-70b-versatile",
+                groq_api_key=groq_api_key,
+                temperature=0.0
+            ).with_structured_output(IngredientList)
+            
+            groq_chain = prompt_template | groq_llm
+            result = groq_chain.invoke({"ocr_text": ocr_text})
+            state["ingredients"] = result.ingredients
+            print("[INFO] Ingredient Agent successfully recovered using Groq (llama-3.3-70b-versatile)!")
+        except Exception as groq_err:
+            raise RuntimeError(f"Both Gemini and Groq fallback failed in Ingredient Agent. Gemini error: {e}. Groq error: {groq_err}")
         
     return state

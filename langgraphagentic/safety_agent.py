@@ -103,6 +103,23 @@ def safety_node(state: dict) -> dict:
         analysis = chain.invoke({"formatted_context": formatted_context})
         state["safety_analysis"] = analysis.model_dump()
     except Exception as e:
-        raise RuntimeError(f"Safety Agent synthesis failed: {e}")
+        print(f"[WARN] Gemini call failed in Safety Agent: {e}. Trying Groq fallback...")
+        groq_api_key = os.environ.get("GROQ_API_KEY")
+        if not groq_api_key:
+            raise RuntimeError(f"Safety Agent synthesis failed and no GROQ_API_KEY configured for fallback. Original error: {e}")
+        try:
+            from langchain_groq import ChatGroq
+            groq_llm = ChatGroq(
+                model="llama-3.3-70b-versatile",
+                groq_api_key=groq_api_key,
+                temperature=0.0
+            ).with_structured_output(SafetyAnalysis)
+            
+            groq_chain = prompt_template | groq_llm
+            analysis = groq_chain.invoke({"formatted_context": formatted_context})
+            state["safety_analysis"] = analysis.model_dump()
+            print("[INFO] Safety Agent successfully recovered using Groq (llama-3.3-70b-versatile)!")
+        except Exception as groq_err:
+            raise RuntimeError(f"Both Gemini and Groq fallback failed in Safety Agent. Gemini error: {e}. Groq error: {groq_err}")
         
     return state

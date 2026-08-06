@@ -1084,7 +1084,39 @@ def research_node(state: dict) -> dict:
                     "combined_search_context": combined_search_context
                 })
             except Exception as e:
-                raise RuntimeError(f"Research Agent batch synthesis failed: {e}")
+                print(f"[WARN] Gemini call failed in Research Agent: {e}. Trying Groq fallback...")
+                groq_api_key = os.environ.get("GROQ_API_KEY")
+                if not groq_api_key:
+                    raise RuntimeError(f"Research Agent batch synthesis failed and no GROQ_API_KEY configured for fallback. Original error: {e}")
+                try:
+                    from langchain_groq import ChatGroq
+                    try:
+                        groq_llm = ChatGroq(
+                            model="llama-3.3-70b-versatile",
+                            groq_api_key=groq_api_key,
+                            temperature=0.0
+                        ).with_structured_output(BatchResearchReport)
+                        groq_chain = prompt_template | groq_llm
+                        batch_report = groq_chain.invoke({
+                            "ingredients_list": ", ".join(llm_eval_ingredients),
+                            "combined_search_context": combined_search_context
+                        })
+                        print("[INFO] Research Agent successfully recovered using Groq (llama-3.3-70b-versatile)!")
+                    except Exception as first_groq_err:
+                        print(f"[WARN] Groq 70B model failed: {first_groq_err}. Trying Groq 8B model (llama-3.1-8b-instant)...")
+                        groq_llm_8b = ChatGroq(
+                            model="llama-3.1-8b-instant",
+                            groq_api_key=groq_api_key,
+                            temperature=0.0
+                        ).with_structured_output(BatchResearchReport)
+                        groq_chain_8b = prompt_template | groq_llm_8b
+                        batch_report = groq_chain_8b.invoke({
+                            "ingredients_list": ", ".join(llm_eval_ingredients),
+                            "combined_search_context": combined_search_context
+                        })
+                        print("[INFO] Research Agent successfully recovered using Groq (llama-3.1-8b-instant)!")
+                except Exception as groq_err:
+                    raise RuntimeError(f"Both Gemini and Groq fallback failed in Research Agent. Gemini error: {e}. Groq error: {groq_err}")
 
             formaldehyde_donors = [
                 "dmdm hydantoin", "imidazolidinyl urea", "diazolidinyl urea",
