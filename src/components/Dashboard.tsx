@@ -668,14 +668,14 @@ export const Dashboard: React.FC<DashboardProps> = ({ onBackToLanding }) => {
               <span className="text-[11px] font-mono text-zinc-400 uppercase tracking-widest">Upload &amp; Analyze</span>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex justify-center w-full">
               <motion.div
                 onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
                 onDragLeave={() => setDragOver(false)}
                 onDrop={handleDrop}
                 onClick={() => fileRef.current?.click()}
                 animate={{ borderColor: dragOver ? 'rgba(255,255,255,0.35)' : 'rgba(255,255,255,0.08)' }}
-                className="relative cursor-pointer rounded-2xl border border-white/8 bg-white/5 p-8 flex flex-col items-center justify-center text-center gap-3 group hover:border-white/20 hover:bg-white/[0.07] transition-colors"
+                className="relative cursor-pointer rounded-2xl border border-white/8 bg-white/5 p-8 flex flex-col items-center justify-center text-center gap-3 group hover:border-white/20 hover:bg-white/[0.07] transition-colors w-full max-w-lg"
               >
                 <input
                   ref={fileRef}
@@ -707,8 +707,6 @@ export const Dashboard: React.FC<DashboardProps> = ({ onBackToLanding }) => {
                   </motion.div>
                 )}
               </motion.div>
-
-              
             </div>
 
             <AnimatePresence>
