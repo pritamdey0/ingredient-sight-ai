@@ -162,7 +162,23 @@ const mapResult = (data: ApiResponse): AnalysisResult => {
   };
 };
 
-// ─── Pipeline steps ───────────────────────────────────────────────────────
+// ─── Backend Configuration ────────────────────────────────────────────────
+
+// Use environment variable if set (for production deployments)
+// Otherwise fallback to relative path (/api) which works when frontend/backend are on same domain
+// Note: __BACKEND_URL__ is replaced at build time by Vite's define option
+const getApiUrl = (endpoint: string) => {
+  // @ts-ignore - __BACKEND_URL__ is defined in vite.config.ts at build time
+  const backendUrl = __BACKEND_URL__ || '';
+  
+  // If we have a full URL (production), use it
+  if (backendUrl && !backendUrl.startsWith('http')) {
+    // It's a relative path, append endpoint
+    return `${backendUrl}${endpoint}`;
+  }
+  // If it's a full URL, ensure we don't double-slash join
+  return backendUrl ? `${backendUrl.replace(/\/$/, '')}${endpoint}` : endpoint;
+};
 
 const PIPELINE_STEPS = [
   { id: 1, label: 'Upload', runMsg: 'Sending image…', doneMsg: '✓ Received' },
@@ -366,7 +382,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onBackToLanding }) => {
     const controller = new AbortController();
     const to = setTimeout(() => controller.abort(), 6000);
     try {
-      const res = await fetch('/api/health', {
+      const res = await fetch(getApiUrl('/api/health'), {
         method: 'GET',
         signal: controller.signal,
         headers: { Accept: 'application/json' },
@@ -469,7 +485,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onBackToLanding }) => {
         );
       }
 
-      const res = await fetch('/api/analyze', {
+      const res = await fetch(getApiUrl('/api/analyze'), {
         method: 'POST',
         body: formData,
         signal: controller.signal,
@@ -506,14 +522,23 @@ export const Dashboard: React.FC<DashboardProps> = ({ onBackToLanding }) => {
       } else if (/(503|pipeline.*not compiled|langgraph pipeline)/i.test(baseMsg)) {
         hint = 'The backend started but could not compile the LangGraph pipeline. Check the server terminal for Python import errors — ensure all dependencies from requirements.txt are installed (fastapi, uvicorn, pillow, google-genai, langgraph, etc.).';
       } else if (/(failed to fetch|networkerror|connection refused|econnrefused|backend offline|timed out)/i.test(baseMsg + ' ' + (health.message || ''))) {
-        hint = (
-          'The FastAPI backend is not reachable on port 8000. Start it with:  python server.py  '
-          + '(in a separate terminal from the frontend). Also make sure you have installed dependencies:  pip install -r requirements.txt'
-        );
+        // @ts-ignore - __BACKEND_URL__ is defined in vite.config.ts at build time
+        const backendUrl = __BACKEND_URL__ || '';
+        const displayUrl = backendUrl ? backendUrl.replace(/https?:\/\//, '').replace(/\/$/, '') : 'localhost:8000';
+        hint = `
+          The backend at ${displayUrl} is not reachable.\n\n`
+          + `If you're using Vercel + Render:\n`  
+          + `  1. Make sure you set VITE_API_URL=https://your-render-app.onrender.com in Vercel dashboard\n`  
+          + `  2. Verify your Render backend is running and accessible\n\n`
+          + `If running locally:\n`  
+          + `  Start the backend with: python server.py (in a separate terminal)`;
       } else if (health.reachable && !health.gemini) {
         hint = 'Backend replied but your Gemini API key is missing or invalid. Re-check .env next to server.py and restart the Python server.';
       } else {
-        hint = 'Make sure the FastAPI server is running:  python server.py   (port 8000).';
+        // @ts-ignore - __BACKEND_URL__ is defined in vite.config.ts at build time
+        const backendUrl = __BACKEND_URL__ || '';
+        const displayUrl = backendUrl ? backendUrl.replace(/https?:\/\//, '').replace(/\/$/, '') : 'localhost:8000';
+        hint = `Make sure the FastAPI server is running on ${displayUrl}. Command: python server.py`;
       }
 
       setError(`${baseMsg} — ${hint}`);
@@ -626,7 +651,11 @@ export const Dashboard: React.FC<DashboardProps> = ({ onBackToLanding }) => {
                   <p className="text-sm text-zinc-200 leading-relaxed">
                     The dashboard can&apos;t reach the FastAPI backend on{' '}
                     <code className="px-1.5 py-0.5 rounded bg-white/5 border border-white/10 text-rose-200 font-mono text-xs">
-                      localhost:8000
+                      {(() => {
+                        // @ts-ignore - __BACKEND_URL__ is defined in vite.config.ts at build time
+                        const backendUrl = __BACKEND_URL__ || '';
+                        return backendUrl ? backendUrl.replace(/https?:\/\//, '').replace(/\/$/, '') : 'localhost:8000';
+                      })()}
                     </code>
                     . Uploads will fail until the Python server is running.
                   </p>

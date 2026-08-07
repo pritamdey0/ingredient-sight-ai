@@ -6,13 +6,41 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
-  const backendPort = Number(env.VITE_BACKEND_PORT || process.env.VITE_BACKEND_PORT || 8000);
-  const backendHost = env.VITE_BACKEND_HOST || process.env.VITE_BACKEND_HOST || 'localhost';
-  const target = `http://${backendHost}:${backendPort}`;
-
-  console.log(`\n[vite] Backend proxy target → ${target}`);
-  console.log(`[vite]  (override with: set VITE_BACKEND_PORT=8001 && npm run dev)\n`);
-  console.log(`[vite]  For production set: VITE_API_URL=https://your-render-app.onrender.com\n`);
+  
+  // Production: Use VITE_API_URL if set (Render backend URL)
+  // Development: Use local backend configuration
+  const isProduction = mode === 'production';
+  const apiUrl = env.VITE_API_URL;
+  
+  let backendPort = 8000;
+  let backendHost = 'localhost';
+  let target = `http://${backendHost}:${backendPort}`;
+  
+  if (isProduction && apiUrl) {
+    // Extract host and port from full URL
+    try {
+      const urlObj = new URL(apiUrl);
+      backendHost = urlObj.hostname;
+      const portValue = urlObj.port || (urlObj.protocol === 'https:' ? '443' : '80');
+      backendPort = Number(portValue);
+      target = apiUrl;
+      console.log(`\n[vite] PRODUCTION MODE - Backend API → ${target}`);
+    } catch (e) {
+      console.warn(`[vite] Invalid VITE_API_URL "${apiUrl}", falling back to localhost:8000`);
+    }
+  } else {
+    // Development mode
+    const customPort = Number(env.VITE_BACKEND_PORT || process.env.VITE_BACKEND_PORT || 8000);
+    const customHost = env.VITE_BACKEND_HOST || process.env.VITE_BACKEND_HOST || 'localhost';
+    backendPort = customPort;
+    backendHost = customHost;
+    target = `http://${backendHost}:${backendPort}`;
+    console.log(`\n[vite] DEVELOPMENT MODE - Backend proxy → ${target}`);
+    console.log(`[vite]  (override with: set VITE_BACKEND_PORT=8001 && npm run dev)\n`);
+  }
+  
+  console.log(`[vite]  For production deployment on Vercel:`);
+  console.log(`[vite]  Set VITE_API_URL=https://your-render-app.onrender.com in Vercel settings\n`);
 
   return {
     plugins: [react(), tailwindcss()],
